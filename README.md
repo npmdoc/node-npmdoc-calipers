@@ -1,6 +1,6 @@
 # npmdoc-calipers
 
-#### api documentation for  [calipers (v2.0.0)](https://github.com/calipersjs/calipers)  [![npm package](https://img.shields.io/npm/v/npmdoc-calipers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-calipers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-calipers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-calipers)
+#### basic api documentation for  [calipers (v2.0.0)](https://github.com/calipersjs/calipers)  [![npm package](https://img.shields.io/npm/v/npmdoc-calipers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-calipers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-calipers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-calipers)
 
 #### The fastest Node.js library for measuring image and PDF dimensions.
 
@@ -81,7 +81,8 @@
         "lint": "eslint .",
         "test": "NODE_ENV=test istanbul cover _mocha -- test --recursive --timeout 15000"
     },
-    "version": "2.0.0"
+    "version": "2.0.0",
+    "bin": {}
 }
 ```
 
